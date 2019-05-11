@@ -7,6 +7,6 @@ body{
 .nav-bar{
     background-color: red;
 }
-.nav-bar ul{
+.nav-bar li{
     list-style-type: none;
 }
