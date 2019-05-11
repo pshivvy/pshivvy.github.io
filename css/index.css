@@ -1,0 +1,9 @@
+/*
+CSS Styles for top most section on the homepage 
+*/
+.intro h1{
+    font-size: 50px;
+}
+.intro a{
+    text-decoration: none;
+}
