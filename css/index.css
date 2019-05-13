@@ -19,7 +19,7 @@ div.intro{
 }
 .intro a{
     text-decoration: none;
-    color: rgb(255, 0, 0);
+    color: red;
 }
 .intro a:visited{
     color: #c06767;
