@@ -19,9 +19,9 @@ div.intro{
 }
 .intro a{
     text-decoration: none;
-    color: rgb(139, 19, 19);
+    color: red;
 }
 .intro a:visited{
-    color: #eb9595;
+    color: green;
 }
 /* CSS Styles for some links as well as the appropriate images*/
