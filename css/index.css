@@ -1,9 +1,27 @@
 /*
-CSS Styles for top most section on the homepage 
+***********************
+CSS Styles for the index/home page of the website.
+***********************
 */
-.intro h1{
-    font-size: 50px;
+/* CSS Styles for top most section on the homepage -- dubbed "intro" */
+div.intro{
+    width: 50%;
+    float: left;
+}
+.intro{
+    margin: 50px;
+}
+.intro h2{
+    font-size: 35px;
+}
+.intro p{
+    padding-left: 20px;
 }
 .intro a{
     text-decoration: none;
+    color: rgb(139, 19, 19);
 }
+.intro a:visited{
+    color: #eb9595;
+}
+/* CSS Styles for some links as well as the appropriate images*/
