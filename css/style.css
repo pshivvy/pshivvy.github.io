@@ -33,7 +33,7 @@ CSS Styles for Navigation Bar
     display: block; 
     padding: 15px 20px 15px;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
 }
 .nav a:hover{ /* link hover effect and response -- font size increases when hovering, bg turns grey */
     background: grey;
