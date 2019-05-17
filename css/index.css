@@ -13,9 +13,11 @@ div.intro{
 }
 .intro h2{
     font-size: 35px;
+    font-family: 'Alegreya', serif; /* Font loaded from Google Fonts */
 }
 .intro p{
     padding-left: 20px;
+    font-family: 'Quicksand', sans-serif; /* Font loaded from Google Fonts */
 }
 .intro a{
     text-decoration: none;
