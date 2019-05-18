@@ -26,4 +26,8 @@ div.intro{
 .intro a:visited{
     color: #c06767;
 }
+.social-links img{
+    width: 150px;
+    float: left;
+}
 /* CSS Styles for some links as well as the appropriate images*/
