@@ -16,12 +16,14 @@ html {
 /*
 CSS Styles for Navigation Bar
 */
+
+
 .nav ul{ /* For unordered list to remove bullets and etc */
     list-style-type: none;
     background: black;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 0 5%;
 }
 .nav li{ /* making the list horizontal */
     display: inline-block;
@@ -44,4 +46,10 @@ CSS Styles for Navigation Bar
     background: white;
     font-size: 18px;
     color: black;
+}
+
+
+.social-links img{
+    width: 5%;
+    float: right;
 }

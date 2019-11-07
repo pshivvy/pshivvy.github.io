@@ -1,0 +1,37 @@
+/*
+***********************
+CSS Styles for the project/home page of the website.
+***********************
+*/
+/* CSS Styles for top most section on the homepage -- dubbed "proj" */
+div.proj{
+    width: 50%;
+    float: left;
+}
+.proj{
+    margin: 50px;
+}
+.proj h1{
+    font-size: 40px;
+    font-family: monospace;
+    color: lightgray;
+    text-decoration: underline lightcoral;
+}
+
+.proj h2{
+    font-size: 35px;
+    font-family: 'Alegreya', serif; /* Font loaded from Google Fonts */
+}
+
+.proj p{
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif; /* Font loaded from Google Fonts */
+}
+.proj a{
+    text-decoration: none;
+    color: red;
+}
+.proj a:visited{
+    color: #c06767;
+}
+/* CSS Styles for some links as well as the appropriate images*/

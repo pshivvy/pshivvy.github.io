@@ -1,6 +1,39 @@
-.nav-bar{
-    background-color: red;
+/*
+***********************
+CSS Styles for the about/home page of the website.
+***********************
+*/
+/* CSS Styles for top most section on the homepage -- dubbed "aboutsec" */
+div.aboutsec{
+    width: 50%;
+    float: left;
 }
-.nav-bar li{
-    list-style-type: none;
+.aboutsec{
+    margin: 50px;
+}
+.aboutsec h2{
+    font-size: 35px;
+    font-family: 'Alegreya', serif; /* Font loaded from Google Fonts */
+}
+.aboutsec p{
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif; /* Font loaded from Google Fonts */
+}
+.aboutsec a{
+    text-decoration: none;
+    color: red;
+}
+.aboutsec a:visited{
+    color: #c06767;
+}
+/* CSS Styles for individual IDs for customization of text */
+#undertext {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 8px;
+    font-style: italic;
+}
+
+#sidenote {
+    font-size: 12px;
+    color: turquoise;
 }
