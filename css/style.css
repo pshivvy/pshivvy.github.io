@@ -17,6 +17,15 @@ html {
 CSS Styles for Navigation Bar
 */
 
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px;
+    height: auto;
+    background-color: whitesmoke;
+}
 
 .nav ul{ /* For unordered list to remove bullets and etc */
     list-style-type: none;
@@ -32,7 +41,7 @@ CSS Styles for Navigation Bar
     text-decoration: none;
     color: white;
     width: 100px;
-    display: block; 
+    display: block;
     padding: 15px 20px 15px;
     font-size: 15px;
     font-family: monospace;
@@ -46,10 +55,17 @@ CSS Styles for Navigation Bar
     background: white;
     font-size: 18px;
     color: black;
+    opacity: 70%;
 }
 
-
-.social-links img{
-    width: 5%;
+.nav-bar-ico {
+    list-style: none;
+    margin: 0;
+    /*display: block;*/
     float: right;
+    width: 80px;
+}
+
+.nav-bar-ico img {
+    width: 80%;
 }
