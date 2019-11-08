@@ -17,21 +17,18 @@ html {
 CSS Styles for Navigation Bar
 */
 
-.wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
-    padding: 0px;
-    height: auto;
-    background-color: whitesmoke;
+
+.nav-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
+
 
 .nav ul{ /* For unordered list to remove bullets and etc */
     list-style-type: none;
     background: black;
     text-align: center;
-    padding: 0;
     margin: 0 5%;
 }
 .nav li{ /* making the list horizontal */
@@ -67,5 +64,5 @@ CSS Styles for Navigation Bar
 }
 
 .nav-bar-ico img {
-    width: 80%;
+    width: 75%;
 }

@@ -1,6 +1,7 @@
-.nav-bar{
-    background-color: red;
+div.blog{
+    width: 50%;
+    float: left;
 }
-.nav-bar li{
-    list-style-type: none;
+.blog{
+    margin: 50px;
 }
