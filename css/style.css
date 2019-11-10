@@ -8,7 +8,7 @@ which will be shared between the others as well. EX: Nav Bar, Footer, etc,.
 CSS Styles for HTML and BODY
 */
 html {
-    background-color: #8D627E;
+    background-color: black;
     color: white;
     margin: 0px;
     padding: 0px;
@@ -27,7 +27,7 @@ CSS Styles for Navigation Bar
 
 .nav ul{ /* For unordered list to remove bullets and etc */
     list-style-type: none;
-    background: #8D627E;
+    background: black;
     text-align: center;
     margin: 0 5%;
 }
@@ -44,14 +44,14 @@ CSS Styles for Navigation Bar
     font-family: monospace;
 }
 .nav a:hover{ /* link hover effect and response -- font size increases when hovering, bg turns grey */
-    background: #A15086;
+    background: grey;
     font-size: 18px;
     transition: 0.6s;
 }
 .nav a.active{ /* active is a class which triggers when you on the certain page; font size to 18px; font color becomes black */
-    background: #512944;
+    background: white;
     font-size: 18px;
-    color: white;
+    color: black;
     opacity: 70%;
 }
 
